@@ -1,0 +1,98 @@
+\documentclass{beamer}
+\setbeamercovered{highly dynamic}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usetheme{Madrid}
+\usepackage{tikz}
+\usetikzlibrary{automata, positioning, arrows}
+
+\tikzset{
+	node distance=3cm, % specifies the minimum distance between two nodes. Change if necessary.
+	every state/.style={thick, fill=gray!10}, % sets the properties for each ’state’ node
+	initial text=$ $, % sets the text that appears on the start arrow
+}
+
+% explicar de forma de forma mais detalhada como aplicar a simulação na minha dissertação
+
+\title{Metodologia de Pesquisa}
+\subtitle{Simulação}
+\author{Ricardo Rosal}
+\begin{document}
+	\begin{frame}[plain]
+	\maketitle
+	\end{frame}	
+	\begin{frame}
+		\tableofcontents
+	\end{frame}
+	\section{Simulação como método de pesquisa}
+	\subsection{O que é simulação?}
+	\par O que é isso?
+	\par [adicionar o desenho de uma fruta]
+	isso é um modelo...
+	
+	\subsection{Vantagens da simulação}
+	\begin{frame}{Simulação como método de pesquisa}
+		\begin{itemize}[<+->]
+			\item O principal valor da simulação como método de pesquisa é a flexibilidade dada ao pesquisar de focar na complexidade do sistema e do modelo em estudo e fazer perguntas do tipo \textbf{"e se?"} ao ínves de perguntas como \textbf{"o que aconteceu? como? e por que?"}.
+			\item outros métodos de pesquisa, em contra-partida, requer que seja \textbf{estabelescida algumas preposições sobre causalidade do fenômeno estudado}, já a simulação nos permite, desde a dinâmica estabelescida do modelo, \textbf{"criar/descobrir"} tais efeitos e demostrar causalidades.
+			\item A simulação permite o estudo de \textbf{fenômenos mais complexos}, uma vez que as observações são feitas para \textbf{"avançando"} no tempo (ou em outro dimensão em que o sistema tem uma dinâmica definida).
+		\end{itemize}
+	\end{frame}
+	\subsection{Tipos de simulação}
+	\subsubsection{Eventos discretos}
+	\begin{frame}{Principais familias de simulação}
+		\begin{itemize}[<+->]
+			\item \textbf{Simulação de eventos discretos:} envolve um modelo onde a dinâmica (\emph{governing equations}) na dimensão $\zeta$ (tempo, por exemplo) evolui de forma discreta, normalmente os eventos são disparados por um gatilho, que pode ser implementado com uma \textbf{callback} ou um \textbf{intervalo pré-definido}.
+			\item usalmente, metódos como maquinas de \textbf{estados-finitos}, e \textbf{teoria das filas} são utilizados para simulação de eventos discretos.
+			\item exemplo:
+			\centering
+				\begin{tikzpicture}
+					\node[state, initial] (q1) {$A$};
+					\node[state, accepting, right of=q1] (q2) {$S$};
+					\node[state, right of=q2] (q3) {$R$};
+					\draw 	(q1) edge[loop above] node{0} (q1)
+							(q1) edge[above] node{T < SP-A} (q2)
+							(q2) edge[loop above] node{1} (q2)
+							(q2) edge[bend left, above] node{0} (q3)
+							(q3) edge[bend left, below] node{0, 1} (q2);
+				\end{tikzpicture}	
+		\end{itemize}
+
+	\end{frame}
+	\subsubsection{Sistemas dinâmicos}
+	\begin{frame}{Principais familias de simulação}
+		\begin{itemize}[<+->]
+			\item \textbf{Simulação de sistemas dinâmicos:} nesse tipo de simulação é definido o \textbf{estado} ou \textbf{estados} do sistema, que normalmente é a variável dependente de uma função, onde é conhecido a dinâmica do mesmo.
+			\item essa dinâmica normalmente é definida por uma \textbf{equação diferencial} \textbf{ODE} ou \textbf{PDE}, dependendo do número de \textbf{dimensões} no espaço onde ocorre a dinâmica do sistema, e a função que define o \textbf{estado} é a solução da equação diferencial.
+			\item Por exemplo:
+			\begin{equation}
+				m\frac{d^2x}{dt^2} - f = 0
+			\end{equation}
+			\item ou:
+			\begin{equation}
+				\nabla^2=\frac{\rho}{\varepsilon}
+			\end{equation}
+		\end{itemize}
+	\end{frame}
+	\subsubsection{Simulação baseada em agentes}
+	\begin{frame}{Principais familias de simulação}
+		\begin{itemize}[<+->]
+			\item \textbf{Simulaçãos baseadas em agentes:} são um grupo de metodos que de simulação que tem como objetivo a iteração de agentes que tendem a otimizar suas \textbf{funções de utilidade}.
+			\item Um dos metodos mais utilizados para esse tipo de simulação a \textbf{teoria dos jogos}.
+		\end{itemize}
+	\end{frame}
+	\section{Os objetivos de uma simulação}
+	\subsection{Predição}
+	\begin{frame}{Simulação como previsão}
+		\begin{itemize}
+			\item As simulações partem de um modelo composto por \textbf{governing rules} e \textbf{constitutive relations} e produz \textbf{saídas} dessas regras.
+			\item Comparando as diferentes saidas de diferentes modelos e parâmetros que constituem os modelos, os pesquisadores podem inferir a relação de dado parâmetro no comportamento da saída.
+			\item A validade dessas dependem intrísicamente da validade do modelo.
+			
+		\end{itemize}
+	\end{frame}
+	\section{Abordagens de simulação}
+	\section{Implementação de uma simulação}
+	\section{Conclusão}
+\end{document}
