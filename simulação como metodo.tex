@@ -117,20 +117,60 @@
 		\end{frame}
 		\begin{frame}{Representações de sistemas dinâmicos}
 			\par Temos geralmente duas formas de representar o tempo em sistemas dinâmicos, e isso normalmente depende da dinâmica do sistema e como isso será definido.
-			\begin{itemize}
-				\item \textbf{Tempo discreto:} os tempo nos sistemas dinâmicos são representados relações recorrentes.
+			\begin{itemize}[<+->]
+				\item \textbf{Tempo discreto:} os tempo nos sistemas dinâmicos são representados \textbf{relações recorrentes} tambem chamado de \textbf{equações de diferenças}.
 				\begin{equation}
 					s(t+\Delta t) = f(s(t))
 				\end{equation}
-				\item \textbf{Tempo c} os tempo nos sistemas dinâmicos são representados relações recorrentes.
+				\item \textbf{Tempo continuo:} já nos sistemas contínuos são representados por \textbf{equações diferenciais}, ordinárias (ODE) ou parciais (PDE).
 				\begin{equation}
-					s(t+\Delta t) = f(s(t))
+					\dot{s} = \frac{ds(t)}{dt} = f(s(t))
 				\end{equation}			
 			\end{itemize}
 		\end{frame}
+		\begin{frame}{Exemplo: Crescimento Populacional}
+			\begin{itemize}[<+->]
+				\item Vamos abordar um problema onde aplicação onde o objeto é simular o \textbf{"crescimento"} de uma população em um dado sistema.
+				\item podemos começar modelando esse sistema, definindo a variável estado do sistema, que no caso é a população $P(t)$.
+				\item Considerando que sabemos o estado atual da população $P(0)=P_0$, temos um IVP.
+				\item De forma bastante resumida, podemos falar que os unicos processos que influenciam o estado da população é a $M(t)$ e o nascimento $N(t)$.
+				\item então podemos definir que:
+					\begin{equation}
+						\dot{P}= \frac{P(t)}{dt} = N(t)-M(t)
+					\end{equation}
+				\item Possiveis funções para modelar os nascimentos e mortes poderiam ser:
+					\begin{equation}
+						B(t)=r_bP(t)
+					\end{equation}
+					\begin{equation}
+						B(t)=r_dP(t)
+					\end{equation}
+			\end{itemize}
+		\end{frame}
+		\begin{frame}{Exemplo: Crescimento Populacional}
+			\begin{itemize}[<+->]
+				\item Podemos simplificar esse problema da seguinte forma:
+					\begin{equation}
+						\dot{P}=rP(t) \text{ onde } r=rb-rd
+					\end{equation}
+				\item E, por ser um modelo \textbf{muito} simples, podemos resolve-lo analiticamente.
+					\begin{equation}
+						P(t)=P_0e^{rt}
+					\end{equation}
+			\end{itemize}
+		\end{frame}
 		\subsection{Monte Carlo}
-		\begin{frame}{O que é metodo de Monte Carlo}
-			content...
+		\begin{frame}{O que é metodo de Monte Carlo?}
+			\begin{itemize}[<+->]
+				\item O objetivo do metodo de monte de carlo é amostrar um processo estocástico e a partir disso, determinar propriedades estatísticas do fenomeno.
+				\item no entanto, como é amostrado os eventos aleatórios?
+				\item A principal sacada do metodo de Monte Carlo foi utlizar a função inversa de uma CDF (cumulative distribution function) para, a partir de um gerador de numeros aleatórios, definir o estado do evento gerado.
+				\item Por exemplo, se jogarmos uma moeda 4 vezes, qual é a probabilidade de obtermos 3 caras e 1 coroa?
+				\item podemos definir isso analiticamente pelo seguinte processo (distribuição binomial):
+				\begin{equation}
+					P(3 caras) = \binom{4}{3}\frac{1}{2}^2\big(1-\frac{1}{2})^1 = \frac{1}{4}
+				\end{equation}
+			\end{itemize}
 		\end{frame}
 		\subsection{Elementos Finitos}
 		\subsection{CPS (Cyber-Phyisical System)}
