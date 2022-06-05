@@ -13,7 +13,6 @@
 	initial text=$ $, % sets the text that appears on the start arrow
 }
 
-% explicar de forma de forma mais detalhada como aplicar a simulação na minha dissertação
 
 \title{Metodologia de Pesquisa}
 \subtitle{Simulação}
@@ -26,12 +25,13 @@
 		\tableofcontents
 	\end{frame}
 	\section{Simulação como método de pesquisa}
-	\subsection{O que é simulação?}
-	\par O que é isso?
-	\par [adicionar o desenho de uma fruta]
-	isso é um modelo...
+		\subsection{O que é simulação?}
+		isso é um modelo...
 	
+	
+	\subsection{Porque fazer uma simulação?}
 	\subsection{Vantagens da simulação}
+	
 	\begin{frame}{Simulação como método de pesquisa}
 		\begin{itemize}[<+->]
 			\item O principal valor da simulação como método de pesquisa é a flexibilidade dada ao pesquisar de focar na complexidade do sistema e do modelo em estudo e fazer perguntas do tipo \textbf{"e se?"} ao ínves de perguntas como \textbf{"o que aconteceu? como? e por que?"}.
@@ -67,6 +67,9 @@
 			\item essa dinâmica normalmente é definida por uma \textbf{equação diferencial} \textbf{ODE} ou \textbf{PDE}, dependendo do número de \textbf{dimensões} no espaço onde ocorre a dinâmica do sistema, e a função que define o \textbf{estado} é a solução da equação diferencial.
 			\item Por exemplo:
 			\begin{equation}
+				F = m \cdot a
+			\end{equation}			
+			\begin{equation}
 				m\frac{d^2x}{dt^2} - f = 0
 			\end{equation}
 			\item ou:
@@ -92,6 +95,48 @@
 			
 		\end{itemize}
 	\end{frame}
+	\section{Métodos de simulação}
+		\subsection{Sistemas dinâmicos}
+		\begin{frame}{O que é um sistema dinâmico?}
+			\begin{itemize}[<+->]
+				\item Em resumo, um \textbf{sistema dinâmico} é um sistema que varia no tempo;
+				\item o sistema é descrito uma variavel que define o estado do sistema;
+					\begin{equation}
+						s(t)
+					\end{equation}
+				\item o estado pode ser um vetor (multivariavel);
+					\begin{equation}
+						s(t)=(s(t),...,s_n(t))^{T}
+					\end{equation}
+				\item e para adicionar a \emph{dinâmica} no sistema, é necessário definir como o \textbf{estado} varia no tempo.
+				\item qual a forma mais convencional de fazer isso matematicamente?
+				\begin{equation}
+					\dot{s}(t) = \frac{s(t)}{dt} = f(s(t))
+				\end{equation}
+			\end{itemize}
+		\end{frame}
+		\begin{frame}{Representações de sistemas dinâmicos}
+			\par Temos geralmente duas formas de representar o tempo em sistemas dinâmicos, e isso normalmente depende da dinâmica do sistema e como isso será definido.
+			\begin{itemize}
+				\item \textbf{Tempo discreto:} os tempo nos sistemas dinâmicos são representados relações recorrentes.
+				\begin{equation}
+					s(t+\Delta t) = f(s(t))
+				\end{equation}
+				\item \textbf{Tempo c} os tempo nos sistemas dinâmicos são representados relações recorrentes.
+				\begin{equation}
+					s(t+\Delta t) = f(s(t))
+				\end{equation}			
+			\end{itemize}
+		\end{frame}
+		\subsection{Monte Carlo}
+		\begin{frame}{O que é metodo de Monte Carlo}
+			content...
+		\end{frame}
+		\subsection{Elementos Finitos}
+		\subsection{CPS (Cyber-Phyisical System)}
+		\subsection{Automatos Celulares}
+		\subsection{Lattice Boltzmann}
+		\subsection{Point-like object}`
 	\section{Abordagens de simulação}
 	\section{Implementação de uma simulação}
 	\section{Conclusão}
