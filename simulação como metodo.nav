@@ -56,8 +56,36 @@
 \headcommand {\beamer@framepages {43}{47}}
 \headcommand {\slideentry {3}{2}{2}{48/48}{Monte Carlo}{0}}
 \headcommand {\beamer@framepages {48}{48}}
-\headcommand {\beamer@partpages {1}{48}}
-\headcommand {\beamer@subsectionpages {49}{48}}
-\headcommand {\beamer@sectionpages {49}{48}}
-\headcommand {\beamer@documentpages {48}}
-\headcommand {\gdef \inserttotalframenumber {16}}
+\headcommand {\beamer@subsectionpages {43}{48}}
+\headcommand {\beamer@subsectionentry {0}{3}{3}{49}{Automatos Celulares}}
+\headcommand {\slideentry {3}{3}{1}{49/54}{Automatos Celulares}{0}}
+\headcommand {\beamer@framepages {49}{54}}
+\headcommand {\slideentry {3}{3}{2}{55/55}{Automatos Celulares}{0}}
+\headcommand {\beamer@framepages {55}{55}}
+\headcommand {\slideentry {3}{3}{3}{56/56}{Automatos Celulares}{0}}
+\headcommand {\beamer@framepages {56}{56}}
+\headcommand {\slideentry {3}{3}{4}{57/57}{Automatos Celulares}{0}}
+\headcommand {\beamer@framepages {57}{57}}
+\headcommand {\beamer@subsectionpages {49}{57}}
+\headcommand {\beamer@subsectionentry {0}{3}{4}{58}{Simulação de eventos discretos}}
+\headcommand {\slideentry {3}{4}{1}{58/60}{Simulação de eventos discretos}{0}}
+\headcommand {\beamer@framepages {58}{60}}
+\headcommand {\slideentry {3}{4}{2}{61/63}{Simulação de eventos discretos}{0}}
+\headcommand {\beamer@framepages {61}{63}}
+\headcommand {\slideentry {3}{4}{3}{64/66}{Simulação de eventos discretos}{0}}
+\headcommand {\beamer@framepages {64}{66}}
+\headcommand {\slideentry {3}{4}{4}{67/69}{Simulação de eventos discretos}{0}}
+\headcommand {\beamer@framepages {67}{69}}
+\headcommand {\beamer@subsectionpages {58}{69}}
+\headcommand {\beamer@subsectionentry {0}{3}{5}{70}{Elementos Finitos}}
+\headcommand {\slideentry {3}{5}{1}{70/71}{Elementos Finitos}{0}}
+\headcommand {\beamer@framepages {70}{71}}
+\headcommand {\slideentry {3}{5}{2}{72/72}{Elementos Finitos}{0}}
+\headcommand {\beamer@framepages {72}{72}}
+\headcommand {\slideentry {3}{5}{3}{73/73}{Elementos Finitos}{0}}
+\headcommand {\beamer@framepages {73}{73}}
+\headcommand {\beamer@partpages {1}{73}}
+\headcommand {\beamer@subsectionpages {74}{73}}
+\headcommand {\beamer@sectionpages {74}{73}}
+\headcommand {\beamer@documentpages {73}}
+\headcommand {\gdef \inserttotalframenumber {27}}

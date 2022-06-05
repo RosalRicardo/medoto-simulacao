@@ -6,8 +6,11 @@
 \usetheme{Madrid}
 \usepackage{tikz}
 \usetikzlibrary{automata, positioning, arrows}
-\usepackage{graphicx}
+\usepackage{graphicx, animate}
+\usepackage{movie15}
 \graphicspath{ {./imagens/} }
+
+
 
 \tikzset{
 	node distance=3cm, % specifies the minimum distance between two nodes. Change if necessary.
@@ -226,10 +229,130 @@
 		\end{center}
 		\end{frame}
 		\subsection{Automatos Celulares}
-		\subsection{Lattice Boltzmann}
-		\subsection{Point-like object}
+		\begin{frame}{Definição de Automatos Celulares}
+			\begin{itemize}[<+->]
+				\item Definindo a partir de um espaço discreto $\Omega$, um reticulado  de celulas de dimensões $n$.
+				\item Realiza simulação em tempos discretos, calculado o \textbf{estado} de cada célula em cada passo no tempo $n$.
+				\item Deve ser definido um conjunto discreto de estados $(S)$ possíveis por celula.
+				\item Deve ser definido uma \textbf{regra de evolução $\Phi$} que define como ocorre a dinâmica do estado das células, na vizinhança $\mathcal{N}$
+				\item a atualização do estado das celulas ocorre \textbf{paralelamente!}.
+				\item Então para definir completamente um automato ceular precisamos da seguinte tupla:
+				\begin{equation}
+					<\Omega, S, \mathcal{N}, \Phi>
+				\end{equation}
+			\end{itemize}
+		\end{frame}
+		\begin{frame}{CA: Vizinhanças $\mathcal{N}$}
+			\begin{columns}
+				\begin{column}{0.5\textwidth}
+					\begin{itemize}
+						\item Vizinhança de Von Neumann;
+						\item Vizinhança de Moore;
+					\end{itemize}
+				\end{column}
+				\begin{column}{0.5\textwidth}
+					\begin{figure}
+						\includegraphics[width=0.3\textwidth]{neumann.png}
+						\caption{Von Neumann $\mathcal{N}$}
+					\end{figure}
+				\begin{figure}
+					\includegraphics[width=0.3\textwidth]{moore.png}
+					\caption{Moore $\mathcal{N}$}
+				\end{figure}							
+				\end{column}
+			\end{columns}
+		\end{frame}
+		\begin{frame}{Exemplo: Jogo da Vida de Conway}
+			\par Um exemplo classico de um automato celular é o \emph{Conway's game of life}, onde cada celula tem 2 estados, ou seja $S = <vivo, morto>$;
+			\par O espaço $\Omega$ é um \textbf{reticulado infinito 2D}.
+			\par Poder ser aplicado tanto em Neumann $\mathcal{N}$ ou Moore $\mathcal{N}$.
+			\par e a regra de evolução $\Phi$ é definda por:
+			\begin{itemize}
+				\item qualquer célula com menos de 2 vizinhos vivos \textbf{morre} (subpopulação);
+				\item qualquer célula com 2 ou mais vizinho vivos \textbf{vive} na proxima geração;
+				\item qualquer célula viva com mais de 3 vizinhos vivos \textbf{morre} (sobrepopulação);
+				\item qualquer célula morta com exatamente 3 vizinhos vira uma célula \textbf{viva} (reprodução);
+			\end{itemize}
+		\end{frame}
+		\begin{frame}
+			\par GIF do jogo da vida...
+		\end{frame}
+		\subsection{Simulação de eventos discretos}
+		\begin{frame}{Simulação de Eventos Discretos}
+			\begin{itemize}[<+->]
+				\item Contrasta com simulações \emph{time-driven};
+				\item Deve existir \textbf{eventos no tempo} que causam alterações significantes no comportamento do sistema;
+				\item O sistema é simulado por \textbf{saltos entre eventos} no tempo.
+			\end{itemize}
+		\end{frame}
+		\begin{frame}{Requisitos para executar uma DES}
+				\begin{itemize}[<+->]
+					\item deve ser possivel \textbf{calcular analiticamente} o estado do sistema, em qualquer valor no tempo, entre dois eventos.
+					\item Os eventos devem ocorrer em uma posição no tempo $t \in \mathbb{R}^{+}$.
+					\item Apenas 1 evento pode ocorrer de cada vez.
+				\end{itemize}
+		\end{frame}
+		\begin{frame}{Descrição de uma simulação por eventos discretos}
+			\begin{itemize}[<+->]
+				\item O sistema é composto de varias entidades $i$, que representam os \emph{passos} da simulação.
+				\item Cada passo é descrito pelo seu conjunto de estados $(s_i(t))$.
+				\item Onde $S(t)$ é o conjunto $\{s_i(t)\}$ no instante de
+				 tempo $t$.
+			\end{itemize}
+		\end{frame}	
+		\begin{frame}{Descrição dos eventos}
+			\begin{itemize}[<+->]
+				\item Cada evento $j$ é associado com uma ação $a_j$.
+				\item Cada ação $a_j$ muda o estado do sistema:
+				\begin{equation}
+					a_j: S(t_i) \rightarrow S(t_{i+1})
+				\end{equation}
+				\item O evento é a \textbf{causa}, a ação é o \textbf{efeito}.
+			\end{itemize}
+		\end{frame}
 		\subsection{Elementos Finitos}
-		\subsection{CPS (Cyber-Phyisical System)}		
+		\begin{frame}{Método dos elementos finitos}
+			\begin{columns}
+				\begin{column}{0.5\textwidth}
+						\begin{itemize}[<+->]
+						\item Embora o método dos elementos finitos seja um metodo númerico para solução de PDE, ele é amplamente utilizado para simulação fenômenos físicos na fisica e na engenharia.
+						\item A principal vantagem do metodo dos elementos finitos é a possibilidade de solução númerica para PDEs que descrevem a dinâmica espaco-temporal em geometrias complexas. problemas que dificilmente possuem solução analitica.
+						\end{itemize}
+				\end{column}
+				\begin{column}{0.5\textwidth}
+					\begin{figure}
+						\includegraphics[width=0.5\linewidth]{fe1}
+						\caption{Elasticidade Linear}
+						\includegraphics[width=0.5\linewidth]{fe2}
+						\caption{Campo Elétrico}				
+					\end{figure}
+				\end{column}
+			\end{columns}
+		\end{frame}
+		\begin{frame}{Metodo dos Elementos Finitos}
+			\begin{itemize}
+				\item O \textbf{metodo dos elementos finitos} consiste na criação de uma \textbf{malha} que representa a geometria do espaço onde o campo escalar ou vetorial ocorre. esse passo é conhecido como \textbf{discretização do domínio} é comum para metodos númericos.
+				\item O proximo passo é aproximação da solução por uma \textbf{interpolação polinomial} em cada elemento.
+				\item Definição de matrizez compostas das \textbf{interpolações polinomiais} para representar o sistema global para o dominio de solução.
+				\item Aplicar algoritmo de solução do sistema global. (variais opções disponiveis), mas normalmente é utilizado livrarias de algebra linear de \textbf{HPC} como \textbf{LUPACK} e \textbf{BLAS}.
+			\end{itemize}
+		\end{frame}
+		\begin{frame}{Exemplos: Elementos finitos}
+			\begin{columns}
+				\begin{column}{.5\linewidth}
+					\begin{figure}
+						\includegraphics[width=\linewidth]{navierstokes2d}
+						\caption{Navier-stokes para fluídos imcompressíveis}
+					\end{figure}
+				\end{column}
+				\begin{column}{.5\linewidth}
+					\begin{figure}
+						\includegraphics[width=\linewidth]{neohook}
+						\caption{Deformação de material hiperelástico}
+					\end{figure}
+				\end{column}			
+			\end{columns}
+		\end{frame}
 	\section{Abordagens de simulação}
 	\section{Implementação de uma simulação}
 	\section{Conclusão}
