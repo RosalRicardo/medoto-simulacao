@@ -6,6 +6,8 @@
 \usetheme{Madrid}
 \usepackage{tikz}
 \usetikzlibrary{automata, positioning, arrows}
+\usepackage{graphicx}
+\graphicspath{ {./imagens/} }
 
 \tikzset{
 	node distance=3cm, % specifies the minimum distance between two nodes. Change if necessary.
@@ -159,6 +161,52 @@
 					\end{equation}
 			\end{itemize}
 		\end{frame}
+		\begin{frame}{Exemplo: Lotka-Volterra}
+			\begin{itemize}[<+->]
+				\item Expandindo a simulação aplicada a dinâmica populações, um modelo mais completo seria o modelo de \textbf{Lotka-Volterra}, tambem conhecido como \emph{presa-predador}.
+				\item Suponha que você queira modelar as populações de gatos e ratos em uma ilha, com suas respectivas dinâmicas no tempos definidas pelas funções $g(t)$ em $r(t)$, respectivamente. Os gatos se alimentam de ratos e morrerão de fome sem eles.
+				\item Portanto, qualquer equação diferencial que descreva a taxa de variação de $g(t)$ também deve envolver $r(t)$. Da mesma forma, a taxa de variação de $r(t)$ depende do número atual de $g(t)$.
+			\end{itemize}
+		\end{frame}
+		\begin{frame}{Exemplo: Lotka-Volterra}
+			\begin{itemize}[<+->]
+				\item Isso apresenta algumas novas características do modelo para simulação, agora precisamos represetar dois \textbf{estados do sistema}, a população de gatos $g(t)$ e de ratos $r(t)$.
+				\item Podemos modelar esse sistema como um \textbf{sistema de equações diferenciais}.
+				\item E chegamos no \textbf{modelo de Lotka-Volterra}.
+				\begin{equation}
+					\frac{dr(t)}{dt}=\alpha r(t) - \beta r(t)g(t)
+				\end{equation}
+				\begin{equation}
+					\frac{dg(t)}{dt}=\delta r(t)g(t) - \gamma g(t)
+				\end{equation}
+			\end{itemize}
+		\end{frame}
+		\begin{frame}{Exemplo: Lotka-Volterra (Solução)}
+			\begin{columns}
+				\begin{column}{0.5\textwidth}
+					Parâmetros:
+					\begin{itemize}[<+->]
+						\item $\alpha$ : é a taxa de crescimento da população de ratos na ausencia de gatos. 
+						\item $\beta$ : é a taxa de morte natural de gatos na ausencia de ratos.
+						\item $\delta$ : é a taxa de mortalidade por encontro de gatos com ratos.
+						\item $\gamma$ : é a "conversão" de ratos em gatos.
+						\item 
+						\begin{equation}
+							\frac{dr(t)}{dt}=\alpha r(t) - \beta r(t)g(t)
+						\end{equation}
+						\begin{equation}
+							\frac{dg(t)}{dt}=\delta r(t)g(t) - \gamma g(t)
+						\end{equation}
+					\end{itemize}
+
+				\end{column}
+				\begin{column}{0.5\textwidth}
+					\begin{center}
+						\includegraphics[width=\textwidth]{Lotka-volterra}
+					\end{center}
+				\end{column}
+			\end{columns}
+		\end{frame}
 		\subsection{Monte Carlo}
 		\begin{frame}{O que é metodo de Monte Carlo?}
 			\begin{itemize}[<+->]
@@ -172,11 +220,16 @@
 				\end{equation}
 			\end{itemize}
 		\end{frame}
-		\subsection{Elementos Finitos}
-		\subsection{CPS (Cyber-Phyisical System)}
+		\begin{frame}{Simulação probabilidade Cara ou Coroa}
+		\begin{center}
+			\includegraphics[width=\textwidth]{simul-monte-carlo}
+		\end{center}
+		\end{frame}
 		\subsection{Automatos Celulares}
 		\subsection{Lattice Boltzmann}
-		\subsection{Point-like object}`
+		\subsection{Point-like object}
+		\subsection{Elementos Finitos}
+		\subsection{CPS (Cyber-Phyisical System)}		
 	\section{Abordagens de simulação}
 	\section{Implementação de uma simulação}
 	\section{Conclusão}

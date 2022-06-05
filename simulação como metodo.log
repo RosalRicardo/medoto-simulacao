@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2022.5.31)  4 JUN 2022 22:52
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2022.5.31)  5 JUN 2022 11:04
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -822,7 +822,7 @@ File: pgflibraryarrows.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 \arrowsize=\dimen297
 ))
 LaTeX Font Info:    Trying to load font information for T1+lmss on input line 2
-0.
+2.
  (/usr/share/texmf/tex/latex/lm/t1lmss.fd
 File: t1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
@@ -834,24 +834,24 @@ File: l3backend-pdftex.def 2022-01-12 L3 backend support: PDF output (pdfTeX)
 (./simulação como metodo.aux)
 \openout1 = `"simulação como metodo.aux"'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -909,7 +909,7 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-Package hyperref Info: Link coloring OFF on input line 20.
+Package hyperref Info: Link coloring OFF on input line 22.
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
@@ -922,60 +922,60 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count345
 )
-LaTeX Info: Redefining \ref on input line 20.
-LaTeX Info: Redefining \pageref on input line 20.
-LaTeX Info: Redefining \nameref on input line 20.
+LaTeX Info: Redefining \ref on input line 22.
+LaTeX Info: Redefining \pageref on input line 22.
+LaTeX Info: Redefining \nameref on input line 22.
 
 (./simulação como metodo.out) (./simulação como metodo.out)
 \@outlinefile=\write5
 \openout5 = `"simulação como metodo.out"'.
 
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/lmr/m/n --> OT1/cmss/m/n on input line 20.
+(Font)                  OT1/lmr/m/n --> OT1/cmss/m/n on input line 22.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/lmr/bx/n --> OT1/cmss/b/n on input line 20.
+(Font)                  OT1/lmr/bx/n --> OT1/cmss/b/n on input line 22.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmss/m/n --> OT1/lmss/m/n on input line 20.
+(Font)                  OT1/cmss/m/n --> OT1/lmss/m/n on input line 22.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmss/b/n --> OT1/lmss/b/n on input line 20.
+(Font)                  OT1/cmss/b/n --> OT1/lmss/b/n on input line 22.
 \symnumbers=\mathgroup6
 \sympureletters=\mathgroup7
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
-(Font)                  OT1/lmss/m/n --> T1/lmr/m/n on input line 20.
-LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 20.
+(Font)                  OT1/lmss/m/n --> T1/lmr/m/n on input line 22.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 22.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/lmr/bx/n --> T1/lmss/b/n on input line 20.
+(Font)                  OT1/lmr/bx/n --> T1/lmss/b/n on input line 22.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  OT1/lmr/bx/n --> T1/lmss/b/n on input line 20.
-LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 20.
+(Font)                  OT1/lmr/bx/n --> T1/lmss/b/n on input line 22.
+LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 22.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/lmss/m/n --> T1/lmss/m/n on input line 20.
+(Font)                  OT1/lmss/m/n --> T1/lmss/m/n on input line 22.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/lmss/bx/n --> T1/lmss/m/n on input line 20.
-LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 20.
+(Font)                  OT1/lmss/bx/n --> T1/lmss/m/n on input line 22.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 22.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/lmr/m/it --> T1/lmss/m/it on input line 20.
+(Font)                  OT1/lmr/m/it --> T1/lmss/m/it on input line 22.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/lmr/bx/it --> T1/lmss/m/it on input line 20.
-LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 20.
+(Font)                  OT1/lmr/bx/it --> T1/lmss/m/it on input line 22.
+LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 22.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/lmtt/m/n --> T1/lmtt/m/n on input line 20.
+(Font)                  OT1/lmtt/m/n --> T1/lmtt/m/n on input line 22.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/lmtt/m/n --> T1/lmtt/m/n on input line 20.
+(Font)                  OT1/lmtt/m/n --> T1/lmtt/m/n on input line 22.
 LaTeX Font Info:    Overwriting symbol font `numbers' in version `bold'
-(Font)                  T1/lmss/m/n --> T1/lmss/b/n on input line 20.
+(Font)                  T1/lmss/m/n --> T1/lmss/b/n on input line 22.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
-(Font)                  T1/lmss/m/it --> T1/lmss/b/it on input line 20.
+(Font)                  T1/lmss/m/it --> T1/lmss/b/it on input line 22.
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `bold'
-(Font)                  OT1/lmss/b/n --> T1/lmr/b/n on input line 20.
+(Font)                  OT1/lmss/b/n --> T1/lmr/b/n on input line 22.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  T1/lmss/b/n --> T1/lmss/b/n on input line 20.
+(Font)                  T1/lmss/b/n --> T1/lmss/b/n on input line 22.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  T1/lmss/m/n --> T1/lmss/b/n on input line 20.
+(Font)                  T1/lmss/m/n --> T1/lmss/b/n on input line 22.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  T1/lmss/m/it --> T1/lmss/b/it on input line 20.
+(Font)                  T1/lmss/m/it --> T1/lmss/b/it on input line 22.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  T1/lmtt/m/n --> T1/lmtt/b/n on input line 20.
+(Font)                  T1/lmtt/m/n --> T1/lmtt/b/n on input line 22.
 
 (/usr/share/texlive/texmf-dist/tex/latex/translator/translator-basic-dictionary
 -English.dict
@@ -1003,11 +1003,7 @@ Dictionary: translator-theorem-dictionary, Language: English
 ) (./simulação como metodo.nav) [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (./simulação como metodo
-.toc)
-Overfull \vbox (11.84497pt too high) detected at line 26
- []
-
-[2
+.toc) [2
 
 ]
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -1024,52 +1020,52 @@ Overfull \vbox (12.0pt too high) has occurred while \output is active []
 
 ]
 LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <10.95> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 62.
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 64.
 LaTeX Font Info:    Trying to load font information for OT1+lmss on input line 
-62.
+64.
  (/usr/share/texmf/tex/latex/lm/ot1lmss.fd
 File: ot1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OML+lmm on input line 6
-2.
+4.
 
 (/usr/share/texmf/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 
-62.
+64.
 
 (/usr/share/texmf/tex/latex/lm/omslmsy.fd
 File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 
-62.
+64.
 
 (/usr/share/texmf/tex/latex/lm/omxlmex.fd
 File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10.95> on input line 62.
+(Font)              <10.95> on input line 64.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 62.
+(Font)              <8> on input line 64.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 62.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 62.
+(Font)              <6> on input line 64.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 64.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 62.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 64.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <8> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 62.
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 64.
 LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <6> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 62.
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 64.
  [7
 
 ] [8
@@ -1135,6 +1131,86 @@ LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <6> not available
 ] [37
 
 ]
+<./imagens//Lotka-volterra.png, id=1085, 602.25pt x 401.5pt>
+File: ./imagens//Lotka-volterra.png Graphic file (type png)
+<use ./imagens//Lotka-volterra.png>
+Package pdftex.def Info: ./imagens//Lotka-volterra.png  used on input line 209.
+
+(pdftex.def)             Requested size: 171.21765pt x 114.14687pt.
+
+Overfull \vbox (23.2631pt too high) detected at line 209
+ []
+
+[38
+
+ <./imagens//Lotka-volterra.png>]
+File: ./imagens//Lotka-volterra.png Graphic file (type png)
+<use ./imagens//Lotka-volterra.png>
+Package pdftex.def Info: ./imagens//Lotka-volterra.png  used on input line 209.
+
+(pdftex.def)             Requested size: 171.21765pt x 114.14687pt.
+
+Overfull \vbox (23.2631pt too high) detected at line 209
+ []
+
+[39
+
+]
+File: ./imagens//Lotka-volterra.png Graphic file (type png)
+<use ./imagens//Lotka-volterra.png>
+Package pdftex.def Info: ./imagens//Lotka-volterra.png  used on input line 209.
+
+(pdftex.def)             Requested size: 171.21765pt x 114.14687pt.
+
+Overfull \vbox (23.2631pt too high) detected at line 209
+ []
+
+[40
+
+]
+File: ./imagens//Lotka-volterra.png Graphic file (type png)
+<use ./imagens//Lotka-volterra.png>
+Package pdftex.def Info: ./imagens//Lotka-volterra.png  used on input line 209.
+
+(pdftex.def)             Requested size: 171.21765pt x 114.14687pt.
+
+Overfull \vbox (23.2631pt too high) detected at line 209
+ []
+
+[41
+
+]
+File: ./imagens//Lotka-volterra.png Graphic file (type png)
+<use ./imagens//Lotka-volterra.png>
+Package pdftex.def Info: ./imagens//Lotka-volterra.png  used on input line 209.
+
+(pdftex.def)             Requested size: 171.21765pt x 114.14687pt.
+
+Overfull \vbox (23.2631pt too high) detected at line 209
+ []
+
+[42
+
+] [43
+
+] [44
+
+] [45
+
+] [46
+
+] [47
+
+]
+<./imagens//simul-monte-carlo.png, id=1347, 545.78906pt x 213.04594pt>
+File: ./imagens//simul-monte-carlo.png Graphic file (type png)
+<use ./imagens//simul-monte-carlo.png>
+Package pdftex.def Info: ./imagens//simul-monte-carlo.png  used on input line 2
+27.
+(pdftex.def)             Requested size: 342.43532pt x 133.667pt.
+ [48
+
+ <./imagens//simul-monte-carlo.png (PNG copy)>]
 \tf@nav=\write6
 \openout6 = `"simulação como metodo.nav"'.
 
@@ -1144,17 +1220,16 @@ LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <6> not available
 \tf@snm=\write8
 \openout8 = `"simulação como metodo.snm"'.
 
-
-(./simulação como metodo.aux)
+ (./simulação como metodo.aux)
 Package rerunfilecheck Info: File `"simulação como metodo".out' has not chang
 ed.
-(rerunfilecheck)             Checksum: 3AA4D6B00381B15737B04DB7E241ABA0;2965.
+(rerunfilecheck)             Checksum: 4404DCBCD6BE47CFE06163AD3B51AF96;1678.
  ) 
 Here is how much of TeX's memory you used:
- 26449 strings out of 480171
- 541885 string characters out of 5894489
- 780454 words of memory out of 5000000
- 43767 multiletter control sequences out of 15000+600000
+ 26467 strings out of 480171
+ 542476 string characters out of 5894489
+ 778470 words of memory out of 5000000
+ 43768 multiletter control sequences out of 15000+600000
  510058 words of font info for 57 fonts, out of 8000000 for 9000
  59 hyphenation exceptions out of 8191
  99i,15n,104p,438b,1010s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1168,10 +1243,10 @@ ts/type1/public/lm/lmss8.pfb></usr/share/texmf/fonts/type1/public/lm/lmss9.pfb>
 </usr/share/texmf/fonts/type1/public/lm/lmssbx10.pfb></usr/share/texmf/fonts/ty
 pe1/public/lm/lmsso10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsso8.pfb></
 usr/share/texmf/fonts/type1/public/lm/lmsy10.pfb>
-Output written on "simulação como metodo.pdf" (37 pages, 263429 bytes).
+Output written on "simulação como metodo.pdf" (48 pages, 347389 bytes).
 PDF statistics:
- 1198 PDF objects out of 1200 (max. 8388607)
- 1107 compressed objects within 12 object streams
- 96 named destinations out of 1000 (max. 500000)
- 259 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1453 PDF objects out of 1728 (max. 8388607)
+ 1347 compressed objects within 14 object streams
+ 110 named destinations out of 1000 (max. 500000)
+ 205 words of extra memory for PDF output out of 10000 (max. 10000000)
 

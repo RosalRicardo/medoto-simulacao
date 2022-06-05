@@ -44,31 +44,20 @@
 \headcommand {\beamer@framepages {24}{29}}
 \headcommand {\slideentry {3}{1}{4}{30/31}{Sistemas dinâmicos}{0}}
 \headcommand {\beamer@framepages {30}{31}}
-\headcommand {\beamer@subsectionpages {17}{31}}
-\headcommand {\beamer@subsectionentry {0}{3}{2}{32}{Monte Carlo}}
-\headcommand {\slideentry {3}{2}{1}{32/36}{Monte Carlo}{0}}
-\headcommand {\beamer@framepages {32}{36}}
-\headcommand {\beamer@subsectionpages {32}{36}}
-\headcommand {\beamer@subsectionentry {0}{3}{3}{37}{Elementos Finitos}}
-\headcommand {\beamer@subsectionpages {37}{36}}
-\headcommand {\beamer@subsectionentry {0}{3}{4}{37}{CPS (Cyber-Phyisical System)}}
-\headcommand {\beamer@subsectionpages {37}{36}}
-\headcommand {\beamer@subsectionentry {0}{3}{5}{37}{Automatos Celulares}}
-\headcommand {\beamer@subsectionpages {37}{36}}
-\headcommand {\beamer@subsectionentry {0}{3}{6}{37}{Lattice Boltzmann}}
-\headcommand {\beamer@subsectionpages {37}{36}}
-\headcommand {\beamer@subsectionentry {0}{3}{7}{37}{Point-like object}}
-\headcommand {\beamer@sectionpages {17}{36}}
-\headcommand {\beamer@subsectionpages {37}{36}}
-\headcommand {\sectionentry {4}{Abordagens de simulação}{37}{Abordagens de simulação}{0}}
-\headcommand {\beamer@sectionpages {37}{36}}
-\headcommand {\beamer@subsectionpages {37}{36}}
-\headcommand {\sectionentry {5}{Implementação de uma simulação}{37}{Implementação de uma simulação}{0}}
-\headcommand {\beamer@sectionpages {37}{36}}
-\headcommand {\beamer@subsectionpages {37}{36}}
-\headcommand {\sectionentry {6}{Conclusão}{37}{Conclusão}{0}}
-\headcommand {\beamer@partpages {1}{37}}
-\headcommand {\beamer@subsectionpages {37}{37}}
-\headcommand {\beamer@sectionpages {37}{37}}
-\headcommand {\beamer@documentpages {37}}
-\headcommand {\gdef \inserttotalframenumber {12}}
+\headcommand {\slideentry {3}{1}{5}{32/34}{Sistemas dinâmicos}{0}}
+\headcommand {\beamer@framepages {32}{34}}
+\headcommand {\slideentry {3}{1}{6}{35/37}{Sistemas dinâmicos}{0}}
+\headcommand {\beamer@framepages {35}{37}}
+\headcommand {\slideentry {3}{1}{7}{38/42}{Sistemas dinâmicos}{0}}
+\headcommand {\beamer@framepages {38}{42}}
+\headcommand {\beamer@subsectionpages {17}{42}}
+\headcommand {\beamer@subsectionentry {0}{3}{2}{43}{Monte Carlo}}
+\headcommand {\slideentry {3}{2}{1}{43/47}{Monte Carlo}{0}}
+\headcommand {\beamer@framepages {43}{47}}
+\headcommand {\slideentry {3}{2}{2}{48/48}{Monte Carlo}{0}}
+\headcommand {\beamer@framepages {48}{48}}
+\headcommand {\beamer@partpages {1}{48}}
+\headcommand {\beamer@subsectionpages {49}{48}}
+\headcommand {\beamer@sectionpages {49}{48}}
+\headcommand {\beamer@documentpages {48}}
+\headcommand {\gdef \inserttotalframenumber {16}}
