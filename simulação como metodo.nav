@@ -62,8 +62,22 @@
 \headcommand {\beamer@framepages {49}{54}}
 \headcommand {\slideentry {3}{3}{2}{55/55}{Automatos Celulares}{0}}
 \headcommand {\beamer@framepages {55}{55}}
-\headcommand {\beamer@partpages {1}{55}}
-\headcommand {\beamer@subsectionpages {56}{55}}
-\headcommand {\beamer@sectionpages {56}{55}}
-\headcommand {\beamer@documentpages {55}}
-\headcommand {\gdef \inserttotalframenumber {18}}
+\headcommand {\slideentry {3}{3}{3}{56/56}{Automatos Celulares}{0}}
+\headcommand {\beamer@framepages {56}{56}}
+\headcommand {\slideentry {3}{3}{4}{57/57}{Automatos Celulares}{0}}
+\headcommand {\beamer@framepages {57}{57}}
+\headcommand {\beamer@subsectionpages {49}{57}}
+\headcommand {\beamer@subsectionentry {0}{3}{4}{58}{Simulação de eventos discretos}}
+\headcommand {\slideentry {3}{4}{1}{58/60}{Simulação de eventos discretos}{0}}
+\headcommand {\beamer@framepages {58}{60}}
+\headcommand {\slideentry {3}{4}{2}{61/63}{Simulação de eventos discretos}{0}}
+\headcommand {\beamer@framepages {61}{63}}
+\headcommand {\slideentry {3}{4}{3}{64/66}{Simulação de eventos discretos}{0}}
+\headcommand {\beamer@framepages {64}{66}}
+\headcommand {\slideentry {3}{4}{4}{67/69}{Simulação de eventos discretos}{0}}
+\headcommand {\beamer@framepages {67}{69}}
+\headcommand {\beamer@partpages {1}{69}}
+\headcommand {\beamer@subsectionpages {70}{69}}
+\headcommand {\beamer@sectionpages {70}{69}}
+\headcommand {\beamer@documentpages {69}}
+\headcommand {\gdef \inserttotalframenumber {24}}

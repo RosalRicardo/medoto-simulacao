@@ -6,7 +6,8 @@
 \usetheme{Madrid}
 \usepackage{tikz}
 \usetikzlibrary{automata, positioning, arrows}
-\usepackage{graphicx}
+\usepackage{graphicx, animate}
+\usepackage{movie15}
 \graphicspath{ {./imagens/} }
 
 \tikzset{
@@ -260,13 +261,57 @@
 			\end{columns}
 		\end{frame}
 		\begin{frame}{Exemplo: Jogo da Vida de Conway}
+			\par Um exemplo classico de um automato celular é o \emph{Conway's game of life}, onde cada celula tem 2 estados, ou seja $S = <vivo, morto>$;
+			\par O espaço $\Omega$ é um \textbf{reticulado infinito 2D}.
+			\par Poder ser aplicado tanto em Neumann $\mathcal{N}$ ou Moore $\mathcal{N}$.
+			\par e a regra de evolução $\Phi$ é definda por:
+			\begin{itemize}
+				\item qualquer célula com menos de 2 vizinhos vivos \textbf{morre} (subpopulação);
+				\item qualquer célula com 2 ou mais vizinho vivos \textbf{vive} na proxima geração;
+				\item qualquer célula viva com mais de 3 vizinhos vivos \textbf{morre} (sobrepopulação);
+				\item qualquer célula morta com exatamente 3 vizinhos vira uma célula \textbf{viva} (reprodução);
+			\end{itemize}
+		\end{frame}
+		\begin{frame}
+			\par GIF do jogo da vida...
+		\end{frame}
+		\subsection{Simulação de eventos discretos}
+		\begin{frame}{Simulação de Eventos Discretos}
+			\begin{itemize}[<+->]
+				\item Contrasta com simulações \emph{time-driven};
+				\item Deve existir \textbf{eventos no tempo} que causam alterações significantes no comportamento do sistema;
+				\item O sistema é simulado por \textbf{saltos entre eventos} no tempo.
+			\end{itemize}
+		\end{frame}
+		\begin{frame}{Requisitos para executar uma DES}
+				\begin{itemize}[<+->]
+					\item deve ser possivel \textbf{calcular analiticamente} o estado do sistema, em qualquer valor no tempo, entre dois eventos.
+					\item Os eventos devem ocorrer em uma posição no tempo $t \in \mathbb{R}^{+}$.
+					\item Apenas 1 evento pode ocorrer de cada vez.
+				\end{itemize}
+		\end{frame}
+		\begin{frame}{Descrição de uma simulação por eventos discretos}
+			\begin{itemize}[<+->]
+				\item O sistema é composto de varias entidades $i$, que representam os \emph{passos} da simulação.
+				\item Cada passo é descrito pelo seu conjunto de estados $(s_i(t))$.
+				\item Onde $S(t)$ é o conjunto $\{s_i(t)\}$ no instante de
+				 tempo $t$.
+			\end{itemize}
+		\end{frame}	
+		\begin{frame}{Descrição dos eventos}
+			\begin{itemize}[<+->]
+				\item Cada evento $j$ é associado com uma ação $a_j$.
+				\item Cada ação $a_j$ muda o estado do sistema:
+				\begin{equation}
+					a_j: S(t_i) \rightarrow S(t_{i+1})
+				\end{equation}
+				\item O evento é a \textbf{causa}, a ação é o \textbf{efeito}.
+			\end{itemize}
+		\end{frame}
+		\subsection{Elementos Finitos}
+		\begin{frame}{Método dos elementos finitos}
 			
 		\end{frame}
-			
-		\subsection{Lattice Boltzmann}
-		\subsection{Point-like object}
-		\subsection{Elementos Finitos}
-		\subsection{CPS (Cyber-Phyisical System)}		
 	\section{Abordagens de simulação}
 	\section{Implementação de uma simulação}
 	\section{Conclusão}

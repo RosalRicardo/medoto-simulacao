@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2022.5.31)  5 JUN 2022 11:49
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2022.5.31)  5 JUN 2022 15:43
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -820,38 +820,140 @@ File: tikzlibraryarrows.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 tex
 File: pgflibraryarrows.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 \arrowsize=\dimen297
-))
-LaTeX Font Info:    Trying to load font information for T1+lmss on input line 2
-2.
- (/usr/share/texmf/tex/latex/lm/t1lmss.fd
-File: t1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)) (/usr/share/texlive/texmf-dist/tex/latex/animate/animate.sty
+Package: animate 2022/01/31 PDF & SVG animations from files and inline graphics
+
+
+(/usr/share/texlive/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+Package: xkeyval 2020/11/20 v2.8 package option processing (HA)
+
+(/usr/share/texlive/texmf-dist/tex/generic/xkeyval/xkeyval.tex
+(/usr/share/texlive/texmf-dist/tex/generic/xkeyval/xkvutils.tex
+\XKV@toks=\toks49
+\XKV@tempa@toks=\toks50
 )
+\XKV@depth=\count338
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+))
+(/usr/share/texlive/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2020/11/24 v1.1c Standard LaTeX ifthen package (DPC)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/ifdraft.sty
+Package: ifdraft 2016/05/16 v1.4 Detect class options draft and final (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/tools/calc.sty
+Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count339
+\calc@Bcount=\count340
+\calc@Adimen=\dimen298
+\calc@Bdimen=\dimen299
+\calc@Askip=\skip64
+\calc@Bskip=\skip65
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count341
+\calc@Cskip=\skip66
+)
+(/usr/share/texlive/texmf-dist/tex/latex/zref/zref-abspage.sty
+Package: zref-abspage 2020-07-03 v2.32 Module abspage for zref (HO)
+
+(/usr/share/texlive/texmf-dist/tex/latex/zref/zref-base.sty
+Package: zref-base 2020-07-03 v2.32 Module base for zref (HO)
+Package zref Info: New property list: main on input line 764.
+Package zref Info: New property: default on input line 765.
+Package zref Info: New property: page on input line 766.
+)
+\c@abspage=\count342
+Package zref Info: New property: abspage on input line 66.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/media9/pdfbase.sty
+(/usr/share/texlive/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty
+(/usr/share/texlive/texmf-dist/tex/latex/l3kernel/expl3.sty
+Package: expl3 2022-01-21 L3 programming layer (loader) 
+
 (/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2022-01-12 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count338
+\l__color_backend_stack_int=\count343
 \l__pdf_internal_box=\box100
+))
+Package: l3keys2e 2022-01-12 LaTeX2e option processing using LaTeX3 keys
 )
-(./simulação como metodo.aux)
+Package: pdfbase 2021/09/12 v0.53 driver independent access to low-level PDF fe
+atures
+\g_pbs_page_int=\count344
+\g_pbs_oc_int=\count345
+)
+(/usr/share/texlive/texmf-dist/tex/latex/ocgx2/ocgbase.sty
+Package: ocgbase 2021/06/11 v0.20 support package for ocgx2.sty
+\g_ocgbase_nd_int=\count346
+)
+\@anim@box=\box101
+\@anim@measbox=\box102
+\@anim@tmpdima=\dimen300
+\@anim@tmpdimb=\dimen301
+\@anim@num=\count347
+\@anim@curframe=\count348
+\@anim@curframe@zb=\count349
+\@anim@resizeflags=\count350
+\@anim@skipfram=\count351
+\@anim@mulframecnt=\count352
+\@anim@@tmlnfile=\read3
+\@anim@tmpcnt=\count353
+\c@@anim@ltxcnt=\count354
+\@anim@curlayer=\count355
+\@anim@lineno=\count356
+\@anim@curfield=\count357
+\@anim@@resizeflags=\count358
+)
+(/usr/share/texlive/texmf-dist/tex/latex/movie15/movie15.sty
+Package: movie15 2012/05/16
+
+(/usr/share/texlive/texmf-dist/tex/latex/everyshi/everyshi.sty
+Package: everyshi 2020/11/18 v4.00 EveryShipout Package
+)
+\@MXV@page=\count359
+\@MXV@adict=\count360
+\@MXV@aadict=\count361
+\@MXV@includes=\count362
+\@MXV@players=\count363
+\@MXV@links=\count364
+\@MXV@width=\dimen302
+\@MXV@height=\dimen303
+\@MXV@depth=\dimen304
+\@MXV@totalheight=\dimen305
+\@MXV@@boxdepth=\dimen306
+\@MXV@traiselen=\dimen307
+\@MXV@braiselen=\dimen308
+\@MXV@start=\dimen309
+\@MXV@end=\dimen310
+\@MXV@textbox=\box103
+)
+LaTeX Font Info:    Trying to load font information for T1+lmss on input line 2
+3.
+
+(/usr/share/texmf/tex/latex/lm/t1lmss.fd
+File: t1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
+) (./simulação como metodo.aux)
 \openout1 = `"simulação como metodo.aux"'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -889,17 +991,17 @@ LaTeX Font Info:    ... okay on input line 22.
 
 (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count339
-\scratchdimen=\dimen298
-\scratchbox=\box101
-\nofMPsegments=\count340
-\nofMParguments=\count341
-\everyMPshowfont=\toks49
-\MPscratchCnt=\count342
-\MPscratchDim=\dimen299
-\MPnumerator=\count343
-\makeMPintoPDFobject=\count344
-\everyMPtoPDFconversion=\toks50
+\scratchcounter=\count365
+\scratchdimen=\dimen311
+\scratchbox=\box104
+\nofMPsegments=\count366
+\nofMParguments=\count367
+\everyMPshowfont=\toks51
+\MPscratchCnt=\count368
+\MPscratchDim=\dimen312
+\MPnumerator=\count369
+\makeMPintoPDFobject=\count370
+\everyMPtoPDFconversion=\toks52
 ) (/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
@@ -909,7 +1011,7 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-Package hyperref Info: Link coloring OFF on input line 22.
+Package hyperref Info: Link coloring OFF on input line 23.
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
@@ -920,62 +1022,62 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 (/usr/share/texlive/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count345
+\c@section@level=\count371
 )
-LaTeX Info: Redefining \ref on input line 22.
-LaTeX Info: Redefining \pageref on input line 22.
-LaTeX Info: Redefining \nameref on input line 22.
+LaTeX Info: Redefining \ref on input line 23.
+LaTeX Info: Redefining \pageref on input line 23.
+LaTeX Info: Redefining \nameref on input line 23.
 
 (./simulação como metodo.out) (./simulação como metodo.out)
 \@outlinefile=\write5
 \openout5 = `"simulação como metodo.out"'.
 
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/lmr/m/n --> OT1/cmss/m/n on input line 22.
+(Font)                  OT1/lmr/m/n --> OT1/cmss/m/n on input line 23.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/lmr/bx/n --> OT1/cmss/b/n on input line 22.
+(Font)                  OT1/lmr/bx/n --> OT1/cmss/b/n on input line 23.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmss/m/n --> OT1/lmss/m/n on input line 22.
+(Font)                  OT1/cmss/m/n --> OT1/lmss/m/n on input line 23.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmss/b/n --> OT1/lmss/b/n on input line 22.
+(Font)                  OT1/cmss/b/n --> OT1/lmss/b/n on input line 23.
 \symnumbers=\mathgroup6
 \sympureletters=\mathgroup7
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
-(Font)                  OT1/lmss/m/n --> T1/lmr/m/n on input line 22.
-LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 22.
+(Font)                  OT1/lmss/m/n --> T1/lmr/m/n on input line 23.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 23.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/lmr/bx/n --> T1/lmss/b/n on input line 22.
+(Font)                  OT1/lmr/bx/n --> T1/lmss/b/n on input line 23.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  OT1/lmr/bx/n --> T1/lmss/b/n on input line 22.
-LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 22.
+(Font)                  OT1/lmr/bx/n --> T1/lmss/b/n on input line 23.
+LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 23.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/lmss/m/n --> T1/lmss/m/n on input line 22.
+(Font)                  OT1/lmss/m/n --> T1/lmss/m/n on input line 23.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/lmss/bx/n --> T1/lmss/m/n on input line 22.
-LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 22.
+(Font)                  OT1/lmss/bx/n --> T1/lmss/m/n on input line 23.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 23.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/lmr/m/it --> T1/lmss/m/it on input line 22.
+(Font)                  OT1/lmr/m/it --> T1/lmss/m/it on input line 23.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/lmr/bx/it --> T1/lmss/m/it on input line 22.
-LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 22.
+(Font)                  OT1/lmr/bx/it --> T1/lmss/m/it on input line 23.
+LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 23.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/lmtt/m/n --> T1/lmtt/m/n on input line 22.
+(Font)                  OT1/lmtt/m/n --> T1/lmtt/m/n on input line 23.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/lmtt/m/n --> T1/lmtt/m/n on input line 22.
+(Font)                  OT1/lmtt/m/n --> T1/lmtt/m/n on input line 23.
 LaTeX Font Info:    Overwriting symbol font `numbers' in version `bold'
-(Font)                  T1/lmss/m/n --> T1/lmss/b/n on input line 22.
+(Font)                  T1/lmss/m/n --> T1/lmss/b/n on input line 23.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
-(Font)                  T1/lmss/m/it --> T1/lmss/b/it on input line 22.
+(Font)                  T1/lmss/m/it --> T1/lmss/b/it on input line 23.
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `bold'
-(Font)                  OT1/lmss/b/n --> T1/lmr/b/n on input line 22.
+(Font)                  OT1/lmss/b/n --> T1/lmr/b/n on input line 23.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  T1/lmss/b/n --> T1/lmss/b/n on input line 22.
+(Font)                  T1/lmss/b/n --> T1/lmss/b/n on input line 23.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  T1/lmss/m/n --> T1/lmss/b/n on input line 22.
+(Font)                  T1/lmss/m/n --> T1/lmss/b/n on input line 23.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  T1/lmss/m/it --> T1/lmss/b/it on input line 22.
+(Font)                  T1/lmss/m/it --> T1/lmss/b/it on input line 23.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  T1/lmtt/m/n --> T1/lmtt/b/n on input line 22.
+(Font)                  T1/lmtt/m/n --> T1/lmtt/b/n on input line 23.
 
 (/usr/share/texlive/texmf-dist/tex/latex/translator/translator-basic-dictionary
 -English.dict
@@ -1020,52 +1122,52 @@ Overfull \vbox (12.0pt too high) has occurred while \output is active []
 
 ]
 LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <10.95> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 64.
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 65.
 LaTeX Font Info:    Trying to load font information for OT1+lmss on input line 
-64.
+65.
  (/usr/share/texmf/tex/latex/lm/ot1lmss.fd
 File: ot1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OML+lmm on input line 6
-4.
+5.
 
 (/usr/share/texmf/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 
-64.
+65.
 
 (/usr/share/texmf/tex/latex/lm/omslmsy.fd
 File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 
-64.
+65.
 
 (/usr/share/texmf/tex/latex/lm/omxlmex.fd
 File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10.95> on input line 64.
+(Font)              <10.95> on input line 65.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 64.
+(Font)              <8> on input line 65.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 64.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 64.
+(Font)              <6> on input line 65.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 65.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 64.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 65.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <8> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 64.
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 65.
 LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <6> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 64.
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 65.
  [7
 
 ] [8
@@ -1131,14 +1233,14 @@ LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <6> not available
 ] [37
 
 ]
-<./imagens//Lotka-volterra.png, id=1091, 602.25pt x 401.5pt>
+<./imagens//Lotka-volterra.png, id=1135, 602.25pt x 401.5pt>
 File: ./imagens//Lotka-volterra.png Graphic file (type png)
 <use ./imagens//Lotka-volterra.png>
-Package pdftex.def Info: ./imagens//Lotka-volterra.png  used on input line 209.
+Package pdftex.def Info: ./imagens//Lotka-volterra.png  used on input line 210.
 
 (pdftex.def)             Requested size: 171.21765pt x 114.14687pt.
 
-Overfull \vbox (23.2631pt too high) detected at line 209
+Overfull \vbox (23.2631pt too high) detected at line 210
  []
 
 [38
@@ -1146,11 +1248,11 @@ Overfull \vbox (23.2631pt too high) detected at line 209
  <./imagens//Lotka-volterra.png>]
 File: ./imagens//Lotka-volterra.png Graphic file (type png)
 <use ./imagens//Lotka-volterra.png>
-Package pdftex.def Info: ./imagens//Lotka-volterra.png  used on input line 209.
+Package pdftex.def Info: ./imagens//Lotka-volterra.png  used on input line 210.
 
 (pdftex.def)             Requested size: 171.21765pt x 114.14687pt.
 
-Overfull \vbox (23.2631pt too high) detected at line 209
+Overfull \vbox (23.2631pt too high) detected at line 210
  []
 
 [39
@@ -1158,11 +1260,11 @@ Overfull \vbox (23.2631pt too high) detected at line 209
 ]
 File: ./imagens//Lotka-volterra.png Graphic file (type png)
 <use ./imagens//Lotka-volterra.png>
-Package pdftex.def Info: ./imagens//Lotka-volterra.png  used on input line 209.
+Package pdftex.def Info: ./imagens//Lotka-volterra.png  used on input line 210.
 
 (pdftex.def)             Requested size: 171.21765pt x 114.14687pt.
 
-Overfull \vbox (23.2631pt too high) detected at line 209
+Overfull \vbox (23.2631pt too high) detected at line 210
  []
 
 [40
@@ -1170,11 +1272,11 @@ Overfull \vbox (23.2631pt too high) detected at line 209
 ]
 File: ./imagens//Lotka-volterra.png Graphic file (type png)
 <use ./imagens//Lotka-volterra.png>
-Package pdftex.def Info: ./imagens//Lotka-volterra.png  used on input line 209.
+Package pdftex.def Info: ./imagens//Lotka-volterra.png  used on input line 210.
 
 (pdftex.def)             Requested size: 171.21765pt x 114.14687pt.
 
-Overfull \vbox (23.2631pt too high) detected at line 209
+Overfull \vbox (23.2631pt too high) detected at line 210
  []
 
 [41
@@ -1182,11 +1284,11 @@ Overfull \vbox (23.2631pt too high) detected at line 209
 ]
 File: ./imagens//Lotka-volterra.png Graphic file (type png)
 <use ./imagens//Lotka-volterra.png>
-Package pdftex.def Info: ./imagens//Lotka-volterra.png  used on input line 209.
+Package pdftex.def Info: ./imagens//Lotka-volterra.png  used on input line 210.
 
 (pdftex.def)             Requested size: 171.21765pt x 114.14687pt.
 
-Overfull \vbox (23.2631pt too high) detected at line 209
+Overfull \vbox (23.2631pt too high) detected at line 210
  []
 
 [42
@@ -1202,11 +1304,11 @@ Overfull \vbox (23.2631pt too high) detected at line 209
 ] [47
 
 ]
-<./imagens//simul-monte-carlo.png, id=1355, 545.78906pt x 213.04594pt>
+<./imagens//simul-monte-carlo.png, id=1408, 545.78906pt x 213.04594pt>
 File: ./imagens//simul-monte-carlo.png Graphic file (type png)
 <use ./imagens//simul-monte-carlo.png>
 Package pdftex.def Info: ./imagens//simul-monte-carlo.png  used on input line 2
-27.
+28.
 (pdftex.def)             Requested size: 342.43532pt x 133.667pt.
  [48
 
@@ -1223,35 +1325,63 @@ Package pdftex.def Info: ./imagens//simul-monte-carlo.png  used on input line 2
 ] [54
 
 ]
-<./imagens//neumann.png, id=1539, 803.0pt x 803.0pt>
+<./imagens//neumann.png, id=1601, 803.0pt x 803.0pt>
 File: ./imagens//neumann.png Graphic file (type png)
 <use ./imagens//neumann.png>
-Package pdftex.def Info: ./imagens//neumann.png  used on input line 261.
+Package pdftex.def Info: ./imagens//neumann.png  used on input line 262.
 (pdftex.def)             Requested size: 51.36581pt x 51.36363pt.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 261.
+(Font)              <10> on input line 262.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 261.
+(Font)              <7> on input line 262.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 261.
+(Font)              <5> on input line 262.
 LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <10> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 261.
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 262.
 LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <7> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 261.
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 262.
 LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <5> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 261.
-<./imagens//moore.png, id=1541, 803.0pt x 803.0pt>
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 262.
+<./imagens//moore.png, id=1603, 803.0pt x 803.0pt>
 File: ./imagens//moore.png Graphic file (type png)
 <use ./imagens//moore.png>
-Package pdftex.def Info: ./imagens//moore.png  used on input line 261.
+Package pdftex.def Info: ./imagens//moore.png  used on input line 262.
 (pdftex.def)             Requested size: 51.36581pt x 51.36363pt.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <14.4> on input line 261.
+(Font)              <14.4> on input line 262.
 LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <14.4> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 261.
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 262.
  [55
 
- <./imagens//neumann.png> <./imagens//moore.png>]
+ <./imagens//neumann.png> <./imagens//moore.png>] [56
+
+] [57
+
+] [58
+
+] [59
+
+] [60
+
+] [61
+
+] [62
+
+] [63
+
+] [64
+
+] [65
+
+] [66
+
+] [67
+
+] [68
+
+] [69
+
+]
 \tf@nav=\write6
 \openout6 = `"simulação como metodo.nav"'.
 
@@ -1261,33 +1391,41 @@ LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <14.4> not available
 \tf@snm=\write8
 \openout8 = `"simulação como metodo.snm"'.
 
- (./simulação como metodo.aux)
+
+
+Package movie15 Warning: @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+(movie15)                @@ Package `movie15' is obsolete and @@
+(movie15)                @@ superseded by `media9'.           @@
+(movie15)                @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@.
+
+(./simulação como metodo.aux)
 Package rerunfilecheck Info: File `"simulação como metodo".out' has not chang
 ed.
-(rerunfilecheck)             Checksum: 9DBC3D6966B34DA5F0C911E40851EA83;1835.
+(rerunfilecheck)             Checksum: B09220A3C9893756D87D5601D2DF4C60;2059.
  ) 
 Here is how much of TeX's memory you used:
- 26572 strings out of 480171
- 544124 string characters out of 5894489
- 778470 words of memory out of 5000000
- 43847 multiletter control sequences out of 15000+600000
+ 28510 strings out of 480171
+ 580478 string characters out of 5894489
+ 864709 words of memory out of 5000000
+ 45704 multiletter control sequences out of 15000+600000
  544780 words of font info for 84 fonts, out of 8000000 for 9000
  59 hyphenation exceptions out of 8191
- 99i,15n,104p,438b,1010s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathex.enc}{/usr/share/texmf/fonts/en
-c/dvips/lm/lm-ec.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/s
-hare/texmf/fonts/enc/dvips/lm/lm-rm.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm
+ 99i,15n,104p,438b,1015s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texmf/fonts/enc/dvips/lm/lm-rm.enc}{/usr/share/texmf/fonts/enc/dv
+ips/lm/lm-mathex.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}{/usr/share
+/texmf/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm
 -mathit.enc}</usr/share/texmf/fonts/type1/public/lm/lmex10.pfb></usr/share/texm
 f/fonts/type1/public/lm/lmmi10.pfb></usr/share/texmf/fonts/type1/public/lm/lmss
 10.pfb></usr/share/texmf/fonts/type1/public/lm/lmss12.pfb></usr/share/texmf/fon
 ts/type1/public/lm/lmss8.pfb></usr/share/texmf/fonts/type1/public/lm/lmss9.pfb>
 </usr/share/texmf/fonts/type1/public/lm/lmssbx10.pfb></usr/share/texmf/fonts/ty
 pe1/public/lm/lmsso10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsso8.pfb></
-usr/share/texmf/fonts/type1/public/lm/lmsy10.pfb>
-Output written on "simulação como metodo.pdf" (55 pages, 404247 bytes).
+usr/share/texmf/fonts/type1/public/lm/lmsy10.pfb></usr/share/texlive/texmf-dist
+/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
+Output written on "simulação como metodo.pdf" (69 pages, 442269 bytes).
 PDF statistics:
- 1651 PDF objects out of 1728 (max. 8388607)
- 1532 compressed objects within 16 object streams
- 125 named destinations out of 1000 (max. 500000)
- 223 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 2109 PDF objects out of 2487 (max. 8388607)
+ 1969 compressed objects within 20 object streams
+ 154 named destinations out of 1000 (max. 500000)
+ 231 words of extra memory for PDF output out of 10000 (max. 10000000)
 
