@@ -226,6 +226,43 @@
 		\end{center}
 		\end{frame}
 		\subsection{Automatos Celulares}
+		\begin{frame}{Definição de Automatos Celulares}
+			\begin{itemize}[<+->]
+				\item Definindo a partir de um espaço discreto $\Omega$, um reticulado  de celulas de dimensões $n$.
+				\item Realiza simulação em tempos discretos, calculado o \textbf{estado} de cada célula em cada passo no tempo $n$.
+				\item Deve ser definido um conjunto discreto de estados $(S)$ possíveis por celula.
+				\item Deve ser definido uma \textbf{regra de evolução $\Phi$} que define como ocorre a dinâmica do estado das células, na vizinhança $\mathcal{N}$
+				\item a atualização do estado das celulas ocorre \textbf{paralelamente!}.
+				\item Então para definir completamente um automato ceular precisamos da seguinte tupla:
+				\begin{equation}
+					<\Omega, S, \mathcal{N}, \Phi>
+				\end{equation}
+			\end{itemize}
+		\end{frame}
+		\begin{frame}{CA: Vizinhanças $\mathcal{N}$}
+			\begin{columns}
+				\begin{column}{0.5\textwidth}
+					\begin{itemize}
+						\item Vizinhança de Von Neumann;
+						\item Vizinhança de Moore;
+					\end{itemize}
+				\end{column}
+				\begin{column}{0.5\textwidth}
+					\begin{figure}
+						\includegraphics[width=0.3\textwidth]{neumann.png}
+						\caption{Von Neumann $\mathcal{N}$}
+					\end{figure}
+				\begin{figure}
+					\includegraphics[width=0.3\textwidth]{moore.png}
+					\caption{Moore $\mathcal{N}$}
+				\end{figure}							
+				\end{column}
+			\end{columns}
+		\end{frame}
+		\begin{frame}{Exemplo: Jogo da Vida de Conway}
+			
+		\end{frame}
+			
 		\subsection{Lattice Boltzmann}
 		\subsection{Point-like object}
 		\subsection{Elementos Finitos}

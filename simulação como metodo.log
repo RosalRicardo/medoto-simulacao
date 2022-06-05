@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2022.5.31)  5 JUN 2022 11:04
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2022.5.31)  5 JUN 2022 11:49
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1131,7 +1131,7 @@ LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <6> not available
 ] [37
 
 ]
-<./imagens//Lotka-volterra.png, id=1085, 602.25pt x 401.5pt>
+<./imagens//Lotka-volterra.png, id=1091, 602.25pt x 401.5pt>
 File: ./imagens//Lotka-volterra.png Graphic file (type png)
 <use ./imagens//Lotka-volterra.png>
 Package pdftex.def Info: ./imagens//Lotka-volterra.png  used on input line 209.
@@ -1202,7 +1202,7 @@ Overfull \vbox (23.2631pt too high) detected at line 209
 ] [47
 
 ]
-<./imagens//simul-monte-carlo.png, id=1347, 545.78906pt x 213.04594pt>
+<./imagens//simul-monte-carlo.png, id=1355, 545.78906pt x 213.04594pt>
 File: ./imagens//simul-monte-carlo.png Graphic file (type png)
 <use ./imagens//simul-monte-carlo.png>
 Package pdftex.def Info: ./imagens//simul-monte-carlo.png  used on input line 2
@@ -1210,7 +1210,48 @@ Package pdftex.def Info: ./imagens//simul-monte-carlo.png  used on input line 2
 (pdftex.def)             Requested size: 342.43532pt x 133.667pt.
  [48
 
- <./imagens//simul-monte-carlo.png (PNG copy)>]
+ <./imagens//simul-monte-carlo.png (PNG copy)>] [49
+
+] [50
+
+] [51
+
+] [52
+
+] [53
+
+] [54
+
+]
+<./imagens//neumann.png, id=1539, 803.0pt x 803.0pt>
+File: ./imagens//neumann.png Graphic file (type png)
+<use ./imagens//neumann.png>
+Package pdftex.def Info: ./imagens//neumann.png  used on input line 261.
+(pdftex.def)             Requested size: 51.36581pt x 51.36363pt.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <10> on input line 261.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <7> on input line 261.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <5> on input line 261.
+LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <10> not available
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 261.
+LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <7> not available
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 261.
+LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <5> not available
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 261.
+<./imagens//moore.png, id=1541, 803.0pt x 803.0pt>
+File: ./imagens//moore.png Graphic file (type png)
+<use ./imagens//moore.png>
+Package pdftex.def Info: ./imagens//moore.png  used on input line 261.
+(pdftex.def)             Requested size: 51.36581pt x 51.36363pt.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <14.4> on input line 261.
+LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <14.4> not available
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 261.
+ [55
+
+ <./imagens//neumann.png> <./imagens//moore.png>]
 \tf@nav=\write6
 \openout6 = `"simulação como metodo.nav"'.
 
@@ -1223,14 +1264,14 @@ Package pdftex.def Info: ./imagens//simul-monte-carlo.png  used on input line 2
  (./simulação como metodo.aux)
 Package rerunfilecheck Info: File `"simulação como metodo".out' has not chang
 ed.
-(rerunfilecheck)             Checksum: 4404DCBCD6BE47CFE06163AD3B51AF96;1678.
+(rerunfilecheck)             Checksum: 9DBC3D6966B34DA5F0C911E40851EA83;1835.
  ) 
 Here is how much of TeX's memory you used:
- 26467 strings out of 480171
- 542476 string characters out of 5894489
+ 26572 strings out of 480171
+ 544124 string characters out of 5894489
  778470 words of memory out of 5000000
- 43768 multiletter control sequences out of 15000+600000
- 510058 words of font info for 57 fonts, out of 8000000 for 9000
+ 43847 multiletter control sequences out of 15000+600000
+ 544780 words of font info for 84 fonts, out of 8000000 for 9000
  59 hyphenation exceptions out of 8191
  99i,15n,104p,438b,1010s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/lm/lm-mathex.enc}{/usr/share/texmf/fonts/en
@@ -1243,10 +1284,10 @@ ts/type1/public/lm/lmss8.pfb></usr/share/texmf/fonts/type1/public/lm/lmss9.pfb>
 </usr/share/texmf/fonts/type1/public/lm/lmssbx10.pfb></usr/share/texmf/fonts/ty
 pe1/public/lm/lmsso10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsso8.pfb></
 usr/share/texmf/fonts/type1/public/lm/lmsy10.pfb>
-Output written on "simulação como metodo.pdf" (48 pages, 347389 bytes).
+Output written on "simulação como metodo.pdf" (55 pages, 404247 bytes).
 PDF statistics:
- 1453 PDF objects out of 1728 (max. 8388607)
- 1347 compressed objects within 14 object streams
- 110 named destinations out of 1000 (max. 500000)
- 205 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1651 PDF objects out of 1728 (max. 8388607)
+ 1532 compressed objects within 16 object streams
+ 125 named destinations out of 1000 (max. 500000)
+ 223 words of extra memory for PDF output out of 10000 (max. 10000000)
 
