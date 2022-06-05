@@ -76,8 +76,16 @@
 \headcommand {\beamer@framepages {64}{66}}
 \headcommand {\slideentry {3}{4}{4}{67/69}{Simulação de eventos discretos}{0}}
 \headcommand {\beamer@framepages {67}{69}}
-\headcommand {\beamer@partpages {1}{69}}
-\headcommand {\beamer@subsectionpages {70}{69}}
-\headcommand {\beamer@sectionpages {70}{69}}
-\headcommand {\beamer@documentpages {69}}
-\headcommand {\gdef \inserttotalframenumber {24}}
+\headcommand {\beamer@subsectionpages {58}{69}}
+\headcommand {\beamer@subsectionentry {0}{3}{5}{70}{Elementos Finitos}}
+\headcommand {\slideentry {3}{5}{1}{70/71}{Elementos Finitos}{0}}
+\headcommand {\beamer@framepages {70}{71}}
+\headcommand {\slideentry {3}{5}{2}{72/72}{Elementos Finitos}{0}}
+\headcommand {\beamer@framepages {72}{72}}
+\headcommand {\slideentry {3}{5}{3}{73/73}{Elementos Finitos}{0}}
+\headcommand {\beamer@framepages {73}{73}}
+\headcommand {\beamer@partpages {1}{73}}
+\headcommand {\beamer@subsectionpages {74}{73}}
+\headcommand {\beamer@sectionpages {74}{73}}
+\headcommand {\beamer@documentpages {73}}
+\headcommand {\gdef \inserttotalframenumber {27}}

@@ -10,6 +10,8 @@
 \usepackage{movie15}
 \graphicspath{ {./imagens/} }
 
+
+
 \tikzset{
 	node distance=3cm, % specifies the minimum distance between two nodes. Change if necessary.
 	every state/.style={thick, fill=gray!10}, % sets the properties for each ’state’ node
@@ -310,7 +312,46 @@
 		\end{frame}
 		\subsection{Elementos Finitos}
 		\begin{frame}{Método dos elementos finitos}
-			
+			\begin{columns}
+				\begin{column}{0.5\textwidth}
+						\begin{itemize}[<+->]
+						\item Embora o método dos elementos finitos seja um metodo númerico para solução de PDE, ele é amplamente utilizado para simulação fenômenos físicos na fisica e na engenharia.
+						\item A principal vantagem do metodo dos elementos finitos é a possibilidade de solução númerica para PDEs que descrevem a dinâmica espaco-temporal em geometrias complexas. problemas que dificilmente possuem solução analitica.
+						\end{itemize}
+				\end{column}
+				\begin{column}{0.5\textwidth}
+					\begin{figure}
+						\includegraphics[width=0.5\linewidth]{fe1}
+						\caption{Elasticidade Linear}
+						\includegraphics[width=0.5\linewidth]{fe2}
+						\caption{Campo Elétrico}				
+					\end{figure}
+				\end{column}
+			\end{columns}
+		\end{frame}
+		\begin{frame}{Metodo dos Elementos Finitos}
+			\begin{itemize}
+				\item O \textbf{metodo dos elementos finitos} consiste na criação de uma \textbf{malha} que representa a geometria do espaço onde o campo escalar ou vetorial ocorre. esse passo é conhecido como \textbf{discretização do domínio} é comum para metodos númericos.
+				\item O proximo passo é aproximação da solução por uma \textbf{interpolação polinomial} em cada elemento.
+				\item Definição de matrizez compostas das \textbf{interpolações polinomiais} para representar o sistema global para o dominio de solução.
+				\item Aplicar algoritmo de solução do sistema global. (variais opções disponiveis), mas normalmente é utilizado livrarias de algebra linear de \textbf{HPC} como \textbf{LUPACK} e \textbf{BLAS}.
+			\end{itemize}
+		\end{frame}
+		\begin{frame}{Exemplos: Elementos finitos}
+			\begin{columns}
+				\begin{column}{.5\linewidth}
+					\begin{figure}
+						\includegraphics[width=\linewidth]{navierstokes2d}
+						\caption{Navier-stokes para fluídos imcompressíveis}
+					\end{figure}
+				\end{column}
+				\begin{column}{.5\linewidth}
+					\begin{figure}
+						\includegraphics[width=\linewidth]{neohook}
+						\caption{Deformação de material hiperelástico}
+					\end{figure}
+				\end{column}			
+			\end{columns}
 		\end{frame}
 	\section{Abordagens de simulação}
 	\section{Implementação de uma simulação}
