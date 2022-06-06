@@ -20,25 +20,25 @@
 
 ### Metodos discretos
 
-#### Monte Carlo
+#### Monte Carlo --ok 
 
-#### Teoria das filas
+#### Teoria das filas (acho q não precise talvez)
 
 ####
 
 ### Medotos com sistemas continuos
 
-#### Elementos finitos
+#### Elementos finitos --ok
 
-#### Sistemas dinâmicos
+#### Sistemas dinâmicos --ok
 
-#### SDE(?)
+#### SDE(?) (não precisa vai ficar complexo demais)
 
 ### Metodo simulação baseado em agentes
 
-#### Teoria dos jogos
+#### Teoria dos jogos 
 
-#### Automatos celulares
+#### Automatos celulares --ok 
 
 #### 
 
