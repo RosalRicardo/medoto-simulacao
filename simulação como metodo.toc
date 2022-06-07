@@ -1,16 +1,11 @@
 \beamer@sectionintoc {1}{Simulação como método de pesquisa}{3}{0}{1}
-\beamer@subsectionintoc {1}{1}{O que é simulação?}{3}{0}{1}
-\beamer@subsectionintoc {1}{2}{Porque fazer uma simulação?}{3}{0}{1}
-\beamer@subsectionintoc {1}{3}{Vantagens da simulação}{3}{0}{1}
-\beamer@subsectionintoc {1}{4}{Tipos de simulação}{7}{0}{1}
-\beamer@subsubsectionintoc {1}{4}{1}{Eventos discretos}{7}{0}{1}
-\beamer@subsubsectionintoc {1}{4}{2}{Sistemas dinâmicos}{10}{0}{1}
-\beamer@subsubsectionintoc {1}{4}{3}{Simulação baseada em agentes}{14}{0}{1}
-\beamer@sectionintoc {2}{Os objetivos de uma simulação}{16}{0}{2}
-\beamer@subsectionintoc {2}{1}{Predição}{16}{0}{2}
-\beamer@sectionintoc {3}{Métodos de simulação}{17}{0}{3}
-\beamer@subsectionintoc {3}{1}{Sistemas dinâmicos}{17}{0}{3}
-\beamer@subsectionintoc {3}{2}{Monte Carlo}{43}{0}{3}
-\beamer@subsectionintoc {3}{3}{Automatos Celulares}{49}{0}{3}
-\beamer@subsectionintoc {3}{4}{Simulação de eventos discretos}{58}{0}{3}
-\beamer@subsectionintoc {3}{5}{Elementos Finitos}{70}{0}{3}
+\beamer@subsectionintoc {1}{1}{Tipos de simulação}{7}{0}{1}
+\beamer@subsubsectionintoc {1}{1}{1}{Eventos discretos}{8}{0}{1}
+\beamer@subsubsectionintoc {1}{1}{2}{Sistemas dinâmicos}{11}{0}{1}
+\beamer@subsubsectionintoc {1}{1}{3}{Simulação baseada em agentes}{15}{0}{1}
+\beamer@sectionintoc {2}{Métodos de simulação}{18}{0}{2}
+\beamer@subsectionintoc {2}{1}{Sistemas dinâmicos}{19}{0}{2}
+\beamer@subsectionintoc {2}{2}{Monte Carlo}{47}{0}{2}
+\beamer@subsectionintoc {2}{3}{Automatos Celulares}{55}{0}{2}
+\beamer@subsectionintoc {2}{4}{Simulação de eventos discretos}{65}{0}{2}
+\beamer@subsectionintoc {2}{5}{Elementos Finitos}{78}{0}{2}
