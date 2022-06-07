@@ -53,17 +53,17 @@
 	\section{Simulação como método de pesquisa}
 	\begin{frame}{Simulação como método de pesquisa}
 		\begin{itemize}[<+->]
-			\item O principal valor da simulação como método de pesquisa é a flexibilidade dada ao pesquisar de focar na complexidade do sistema e do modelo em estudo e fazer perguntas do tipo \textbf{"e se?"} ao ínves de perguntas como \textbf{"o que aconteceu? como? e por que?"}.
+			\item O principal valor da simulação como método de pesquisa é a flexibilidade dada ao pesquisar de "abraçar" a complexidade do sistema e do modelo em um estudo e fazer perguntas do tipo \textbf{"e se?"} ao ínves de perguntas como \textbf{"o que aconteceu? como? e por que?"}.
 			\item outros métodos de pesquisa, em contra-partida, requer que seja \textbf{estabelescida algumas preposições sobre causalidade do fenômeno estudado}, já a simulação nos permite, desde a dinâmica estabelescida do modelo, \textbf{"criar/descobrir"} tais efeitos e demostrar causalidades.
-			\item A simulação permite o estudo de \textbf{fenômenos mais complexos}, uma vez que as observações são feitas para \textbf{"avançando"} no tempo (ou em outro dimensão em que o sistema tem uma dinâmica definida).
+			\item A simulação permite o estudo de \textbf{fenômenos mais complexos}, uma vez que as observações são feitas para \textbf{"avançando"} no tempo (ou em outro dimensão em que o sistema tem uma dinâmica definida).\cite{dooley_simulation_2002}
 		\end{itemize}
 	\end{frame}
 	\subsection{Tipos de simulação}
 	\subsubsection{Eventos discretos}
 	\begin{frame}{Principais familias de simulação}
 		\begin{itemize}[<+->]
-			\item \textbf{Simulação de eventos discretos:} envolve um modelo onde a dinâmica (\emph{governing equations}) na dimensão $\zeta$ (tempo, por exemplo) evolui de forma discreta, normalmente os eventos são disparados por um gatilho, que pode ser implementado com uma \textbf{callback} ou um \textbf{intervalo pré-definido}.
-			\item usalmente, metódos como maquinas de \textbf{estados-finitos}, e \textbf{teoria das filas} são utilizados para simulação de eventos discretos.
+			\item \textbf{Simulação de eventos discretos:} envolve um modelo onde a dinâmica (\emph{governing equations}) na dimensão $\zeta$ (tempo, por exemplo) evolui de forma discreta, normalmente os eventos são disparados por um gatilho, que pode ser implementado com uma \textbf{callback} ou um \textbf{intervalo pré-definido}.\cite{banks_discrete-event_2009}
+			\item usalmente, metódos como \textbf{maquinas de estados-finitos}, e \textbf{teoria das filas} são utilizados para simulação de eventos discretos.
 			\item exemplo:
 			\centering
 				\begin{tikzpicture}
@@ -83,7 +83,7 @@
 	\begin{frame}{Principais familias de simulação}
 		\begin{itemize}[<+->]
 			\item \textbf{Simulação de sistemas dinâmicos:} nesse tipo de simulação é definido o \textbf{estado} ou \textbf{estados} do sistema, que normalmente é a variável dependente de uma função, onde é conhecido a dinâmica do mesmo.
-			\item essa dinâmica normalmente é definida por uma \textbf{equação diferencial} \textbf{ODE} ou \textbf{PDE}, dependendo do número de \textbf{dimensões} no espaço onde ocorre a dinâmica do sistema, e a função que define o \textbf{estado} é a solução da equação diferencial.
+			\item essa dinâmica normalmente é definida por uma \textbf{equação diferencial} \textbf{ODE} ou \textbf{PDE}, dependendo do número de \textbf{dimensões} no espaço onde ocorre a dinâmica do sistema, e a função que define o \textbf{estado} é a solução da equação diferencial.\cite{quarteroni_numerical_2006}
 			\item Por exemplo:
 			\begin{equation}
 				F = m \cdot a
@@ -100,7 +100,7 @@
 	\subsubsection{Simulação baseada em agentes}
 	\begin{frame}{Principais familias de simulação}
 		\begin{itemize}[<+->]
-			\item \textbf{Simulaçãos baseadas em agentes:} são um grupo de metodos que de simulação que tem como objetivo a iteração de agentes que tendem a otimizar suas \textbf{funções de utilidade}.
+			\item \textbf{Simulaçãos baseadas em agentes:} são um grupo de metodos que de simulação que tem como objetivo a iteração de agentes que tendem a otimizar suas \textbf{funções de utilidade}. \cite{dooley_simulation_2002}
 			\item Um dos metodos mais utilizados para esse tipo de simulação a \textbf{teoria dos jogos}.
 			\item 
 			\begin{figure}[!v]
@@ -380,5 +380,11 @@
 					\end{figure}
 				\end{column}			
 			\end{columns}
+		\end{frame}
+		\begin{frame}{Referências}
+			\fontsize{9pt}{10pt}
+			\textbf{Referências:}
+			\bibliographystyle{abbrv}
+			\bibliography{metsim.bib}
 		\end{frame}
 \end{document}
