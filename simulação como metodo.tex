@@ -10,6 +10,27 @@
 \usepackage{movie15}
 \graphicspath{ {./imagens/} }
 
+\AtBeginSection[]{
+	\begin{frame}
+		\vfill
+		\centering
+		\begin{beamercolorbox}[sep=8pt,center,shadow=true,rounded=true]{title}
+			\usebeamerfont{title}\insertsectionhead\par%
+		\end{beamercolorbox}
+		\vfill
+	\end{frame}
+}
+
+\AtBeginSubsection[]{
+	\begin{frame}
+		\vfill
+		\centering
+		\begin{beamercolorbox}[sep=8pt,center,shadow=true,rounded=true]{title}
+			\usebeamerfont{title}\insertsubsectionhead\par%
+		\end{beamercolorbox}
+		\vfill
+	\end{frame}
+}
 
 
 \tikzset{
@@ -30,13 +51,6 @@
 		\tableofcontents
 	\end{frame}
 	\section{Simulação como método de pesquisa}
-		\subsection{O que é simulação?}
-		isso é um modelo...
-	
-	
-	\subsection{Porque fazer uma simulação?}
-	\subsection{Vantagens da simulação}
-	
 	\begin{frame}{Simulação como método de pesquisa}
 		\begin{itemize}[<+->]
 			\item O principal valor da simulação como método de pesquisa é a flexibilidade dada ao pesquisar de focar na complexidade do sistema e do modelo em estudo e fazer perguntas do tipo \textbf{"e se?"} ao ínves de perguntas como \textbf{"o que aconteceu? como? e por que?"}.
@@ -56,11 +70,11 @@
 					\node[state, initial] (q1) {$A$};
 					\node[state, accepting, right of=q1] (q2) {$S$};
 					\node[state, right of=q2] (q3) {$R$};
-					\draw 	(q1) edge[loop above] node{0} (q1)
-							(q1) edge[above] node{T < SP-A} (q2)
-							(q2) edge[loop above] node{1} (q2)
-							(q2) edge[bend left, above] node{0} (q3)
-							(q3) edge[bend left, below] node{0, 1} (q2);
+					\draw 	(q1) edge[loop above] node{T<SP-A} (q1)
+							(q1) edge[above] node{T >= SP-A} (q2)
+							(q2) edge[loop above] node{T==SP} (q2)
+							(q2) edge[bend left, above] node{T>SP-R} (q3)
+							(q3) edge[bend left, below] node{T<SP-R} (q2);
 				\end{tikzpicture}	
 		\end{itemize}
 
@@ -88,16 +102,13 @@
 		\begin{itemize}[<+->]
 			\item \textbf{Simulaçãos baseadas em agentes:} são um grupo de metodos que de simulação que tem como objetivo a iteração de agentes que tendem a otimizar suas \textbf{funções de utilidade}.
 			\item Um dos metodos mais utilizados para esse tipo de simulação a \textbf{teoria dos jogos}.
-		\end{itemize}
-	\end{frame}
-	\section{Os objetivos de uma simulação}
-	\subsection{Predição}
-	\begin{frame}{Simulação como previsão}
-		\begin{itemize}
-			\item As simulações partem de um modelo composto por \textbf{governing rules} e \textbf{constitutive relations} e produz \textbf{saídas} dessas regras.
-			\item Comparando as diferentes saidas de diferentes modelos e parâmetros que constituem os modelos, os pesquisadores podem inferir a relação de dado parâmetro no comportamento da saída.
-			\item A validade dessas dependem intrísicamente da validade do modelo.
-			
+			\item 
+			\begin{figure}[!v]
+				\centering
+				\includegraphics[width=0.4\textwidth]{kasparov}
+				\includegraphics[width=0.4\textwidth]{CA}
+				\caption{Kasparov vs Deep Blue e automato celular}
+			\end{figure}
 		\end{itemize}
 	\end{frame}
 	\section{Métodos de simulação}
@@ -164,6 +175,20 @@
 					\end{equation}
 			\end{itemize}
 		\end{frame}
+		\begin{frame}{Exemplo: Crescimento Populacional}
+			\begin{columns}
+				\begin{column}{0.5\textwidth}
+					\begin{itemize}
+						\item $r > 0$: crescimento exponencial
+						\item $r < 0$: decaimento exponencial
+						\item $r = 0$: população constante
+					\end{itemize}
+				\end{column}
+				\begin{column}{.5\textwidth}
+					\includegraphics[width=\textwidth]{cres_pop}
+				\end{column}
+			\end{columns}
+		\end{frame}
 		\begin{frame}{Exemplo: Lotka-Volterra}
 			\begin{itemize}[<+->]
 				\item Expandindo a simulação aplicada a dinâmica populações, um modelo mais completo seria o modelo de \textbf{Lotka-Volterra}, tambem conhecido como \emph{presa-predador}.
@@ -227,6 +252,9 @@
 		\begin{center}
 			\includegraphics[width=\textwidth]{simul-monte-carlo}
 		\end{center}
+		\end{frame}
+		\begin{frame}{Exemplo: Monte Carlo para análise de custo}
+			\includegraphics[width=\textwidth]{montecarlo2}
 		\end{frame}
 		\subsection{Automatos Celulares}
 		\begin{frame}{Definição de Automatos Celulares}
@@ -334,7 +362,7 @@
 				\item O \textbf{metodo dos elementos finitos} consiste na criação de uma \textbf{malha} que representa a geometria do espaço onde o campo escalar ou vetorial ocorre. esse passo é conhecido como \textbf{discretização do domínio} é comum para metodos númericos.
 				\item O proximo passo é aproximação da solução por uma \textbf{interpolação polinomial} em cada elemento.
 				\item Definição de matrizez compostas das \textbf{interpolações polinomiais} para representar o sistema global para o dominio de solução.
-				\item Aplicar algoritmo de solução do sistema global. (variais opções disponiveis), mas normalmente é utilizado livrarias de algebra linear de \textbf{HPC} como \textbf{LUPACK} e \textbf{BLAS}.
+				\item Aplicar algoritmo de solução do sistema global. (variais opções disponiveis), mas normalmente é utilizado livrarias de algebra linear de \textbf{HPC} como \textbf{LAPACK} e \textbf{BLAS}.
 			\end{itemize}
 		\end{frame}
 		\begin{frame}{Exemplos: Elementos finitos}
@@ -353,7 +381,4 @@
 				\end{column}			
 			\end{columns}
 		\end{frame}
-	\section{Abordagens de simulação}
-	\section{Implementação de uma simulação}
-	\section{Conclusão}
 \end{document}
