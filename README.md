@@ -1,47 +1,18 @@
 # Apresentação de simulação como método
 
-//Parte 01 (Henrique)
+## Tipos de simulação
 
-## Introdução ao metodo
++ Eventos Discretos
++ Sistemas dinâmicos
++ Simulação baseada em agentes
 
-## diferença entre modelo e simulação e otimização
+## Métodos de simulação
 
-## CIA (concepção e implementaçao e analise)
++ Sistemas dinâmicos
++ Monte Carlo
++ Automatos Celulares
++ Simulação de eventos discretos
++ Elementos Finitos
 
-## Pra que usar simualação 
 
-## Quando (ou não) usar simulação
 
-## Exemplo (pesquisa Natan)
-
-//Parte 02 (apresentação dos metodos) 
-
-## Métodos de simulação (contextualizar o cia no metodo)
-
-### Metodos discretos
-
-#### Monte Carlo --ok 
-
-#### Teoria das filas (acho q não precise talvez)
-
-####
-
-### Medotos com sistemas continuos
-
-#### Elementos finitos --ok
-
-#### Sistemas dinâmicos --ok
-
-#### SDE(?) (não precisa vai ficar complexo demais)
-
-### Metodo simulação baseado em agentes
-
-#### Teoria dos jogos 
-
-#### Automatos celulares --ok 
-
-#### 
-
-//Parte 03 (Nóis 3)
-
-## Exemplos
